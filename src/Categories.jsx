@@ -1,9 +1,9 @@
 const Categories = ({categories}) => {
     return (
         <div className="btn-container">
-            {categories.map((category, index) => {
+            {categories.map((category) => {
                 return (
-                    <button type="button" className="filter-btn" key={index}>
+                    <button type="button" className="btn" key={category}>
                         {category}
                     </button>
                 )
